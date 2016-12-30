@@ -1,0 +1,12 @@
+{
+  "name": "sample-json-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "json-server": "0.9.4 ",
+    "jsonfile":"2.4.0"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "teamid": 2001,
+    "first_name": "John",
+    "last_name": "Smith"
+  },
+  {
+    "id": 2,
+    "teamid": 2001,
+    "first_name": "James",
+    "last_name": "Bond"
+  }
+]
