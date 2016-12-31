@@ -27,7 +27,7 @@ config.forEach(function(item){
 		
 		// hookfunc can custom the defaultObj
 		if(undefined !== item.hookfunc){
-			item.hookfunc(defaultObj);
+			item.hookfunc(defaultObj,req);
 		}
 
 		// response json format	

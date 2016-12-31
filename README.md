@@ -54,10 +54,10 @@ var config = [
 You can custom handle the request by define your custom "hookfunc", like this:
 
 ```js
-var func_get_match_detail = function(defaultObj) {
+var func_get_match_detail = function(defaultObj,req) {
 	// increase homescore every time
-	var hscore = parseInt(defaultObj.homescore)+1+"";
-	defaultObj.homescore = hscore;
+	var homescore = parseInt(defaultObj.homescore)+1+"";
+	defaultObj.homescore = homescore;
 }
 
 ```

@@ -1,11 +1,11 @@
 
-var func_get_match_detail = function(defaultObj) {
+var func_get_match_detail = function(defaultObj,req) {
 	// increase homescore every time
 	var homescore = parseInt(defaultObj.homescore)+1+"";
 	defaultObj.homescore = homescore;
 }
 
-var func_get_match_players = function(defaultObj) {
+var func_get_match_players = function(defaultObj,req) {
 	// remove the first element in defaultObj arry
 	defaultObj.splice(0,1);
 }
