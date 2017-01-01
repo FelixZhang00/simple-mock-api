@@ -38,7 +38,7 @@ config.forEach(function(item){
 server.use(middlewares)
 server.use(router)
 server.listen(3000, function () {
-	console.log('sample-mock-api Server is running'+',listen on port 3000')
+	console.log('simple-mock-api Server is running'+',listen on port 3000')
 });
 
 

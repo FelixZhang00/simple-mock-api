@@ -1,5 +1,5 @@
 {
-  "name": "sample-json-server",
+  "name": "simple-mock-api",
   "version": "0.0.0",
   "private": true,
   "scripts": {

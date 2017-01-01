@@ -1,6 +1,6 @@
-#sample-mock-api
+#simple-mock-api
 
-Use [json-server](https://github.com/typicode/json-server) make this sample mock api server.
+Use [json-server](https://github.com/typicode/json-server) make this simple mock api server.
 
 ## Usage
 	
