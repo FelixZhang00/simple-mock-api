@@ -77,11 +77,11 @@ Now if you go to [http://localhost:3000/get_match_detail](http://localhost:3000/
 
 ```json
 {
-state: 1,
-title: "NBA",
-time: "2017-01-01",
-homescore: "101",
-guestscore: "115"
+  "state": 1,
+  "title":"NBA",
+  "time":"2017-01-01",
+  "homescore": "102",
+  "guestscore": "115"
 }
 ```
 and the homescore's value changed every time when you go to the same link.
